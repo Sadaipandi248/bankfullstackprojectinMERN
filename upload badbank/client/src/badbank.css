@@ -1,0 +1,174 @@
+/* badbank.css */
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: rgb(0, 143, 153);
+  padding: 15px;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: gainsboro;
+  word-spacing: 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: aliceblue;
+  border-radius: 20px;
+  color: rgb(55, 0, 255);
+}
+
+.logo {
+  color: #e6b515;
+  font-weight: inherit;
+}
+
+.logo:hover {
+  background-color: aliceblue;
+  border-radius: 20px;
+  color: rgb(206, 11, 11);
+}
+
+/* Homepage Styles */
+.home {
+  margin-top: 60px;
+}
+
+/* Create Page Styles */
+.create {
+  margin: 280px;
+  margin-top: 30px;
+  background-color: #f0f0f0;
+}
+
+.mb-3 {
+  width: 330px;
+  margin-left: 170px;
+}
+
+.mb-4 {
+  color: rgb(0, 143, 153);
+  text-align: center;
+}
+
+.button {
+  margin-right: 20px;
+}
+
+/* Login Page Styles */
+.login {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.login h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Deposit Page Styles */
+.dep {
+  margin-top: 70px;
+  margin-left: 390px;
+  background-color: #f0f0f0;
+}
+
+.balance-heading {
+  color: rgb(0, 143, 153);
+}
+
+.form-control {
+  width: 180px;
+}
+.deposit-but{
+  background-color: #26f706;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 160px;
+  margin-top: 10px; 
+}
+.btn-submit {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Widthdraw Page Styles */
+.widthdraw {
+  margin-top: 70px;
+  margin-left: 390px;
+  background-color: #f0f0f0;
+}
+
+.width {
+  color: rgb(0, 143, 153);
+}
+
+/* Alldata Page Styles */
+.alldata {
+  margin-top: 70px;
+  margin-left: 390px;
+  background-color: #f0f0f0;
+}
+
+.all {
+  color: rgb(0, 143, 153);
+}
+/*navigate button */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
